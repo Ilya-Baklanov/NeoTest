@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_favorites {
+            position: relative;
+            margin-right: 45px;
+
+            &_indicator {
+                position: absolute;
+                right: -10px;
+                top: -10px;
+                width: 17px;
+                height: 17px;
+                border-radius: 50%;
+                background: #FFA542;
+            }
+        }
+
+        &_basket {}
+    }
+}
